@@ -26,29 +26,7 @@ class belepes
 	
 
 		$this->kapcsolat->select_db( $this->adatbazis );
-	
-		/*
-		create table tábla neve(
-			mezőnév típus(szélesség) egyéb pl. illesztés
-			,
-			mezőnév típus(szélesség) egyéb
-			,
-			primary key (mezőnév)
-		)
-		*/
-	
-		/*
-		$pcs="create table if not exists userek(
-				id int(9) not null auto_increment
-				,
-				email varchar(50) not null COLLATE utf8_hungarian_ci
-				,
-				jelszo varchar(32) not null COLLATE utf8_hungarian_ci
-				,
-				primary key (id)
-				)";
-		*/
-		
+			
 		$pcs="create table if not exists ".$this->tabla;
 		
 		$pcs.="( id int(9) not null auto_increment ,";
