@@ -1,0 +1,16 @@
+.belepes_doboz
+{
+	float:left;
+	width:20%;
+	border:1px solid #CCCCCC;
+	padding:10px;
+}
+
+.urlap_mezo
+{
+	width:100%;
+	padding:8px;
+	border:1px solid #CCCCCC;
+	border-radius:5px;
+	-webkit-box-sizing:border-box;
+}
